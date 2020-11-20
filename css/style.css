@@ -39,6 +39,10 @@ ul.navbar-language :not(#es) a{
   padding-right: 10px;
 }
 
+ul.navbar-language #es{
+  padding-right: 0px;
+}
+
 .jumbotron {
   background-image: url('../img/hero-bg.jpg');
   background-repeat: no-repeat;
@@ -63,3 +67,102 @@ ul.navbar-language :not(#es) a{
   color: white;
   width: 100%;
 }
+
+.prodotti div{
+  text-align: center;
+}
+
+.prodotti img{
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.grey{
+  background-color: #FAFAFA;
+}
+
+.prodotti .row {
+  margin-top: 30px;
+}
+
+.prodotti .row h2{
+  padding-top: 50px;
+}
+
+.prodotti .row div *{
+  padding-bottom: 30px;
+}
+
+.prodotti .row .monopattino{
+  margin-right: 10px;
+}
+
+.prodotti .row .bici{
+  margin-left: 10px;
+}
+
+@media screen  and (max-width:992px){
+
+  .prodotti img{
+    height: 310px;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  .prodotti .row .monopattino, .prodotti .row .bici{
+    margin: 15px 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// */

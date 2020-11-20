@@ -62,6 +62,10 @@
   margin-right: 10px;
 }
 
+.mt-10{
+  margin-top: 10px;
+}
+
 /* framework colonne*/
 .col-lg-1 {
   width: calc(100% / 12 * 1);
