@@ -38,3 +38,28 @@ ul.navbar-language :not(#es) a{
   border-right: 2px solid black;
   padding-right: 10px;
 }
+
+.jumbotron {
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+}
+
+.jumbotron p {
+  margin: 10px 0;
+}
+
+.jumbotron .testo {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+}
