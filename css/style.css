@@ -2,3 +2,39 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size:16px;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-top {
+  height: 80px;
+  line-height: 80px;
+}
+
+.header-top .logo img{
+  vertical-align: middle;
+}
+
+ul.navbar-menu li,
+ul.navbar-language li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul.navbar-menu li a,
+ul.navbar-language li a {
+  color: #343434;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+ul.navbar-language :not(#es) a{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
