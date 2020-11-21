@@ -167,6 +167,39 @@ section.mobility{
   transform: translateX(-50%);
 }
 
+.family{
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/wall.jpg');
+  position: relative;
+}
+
+.family .family-text{
+  height: 50%;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.family .family-text-testo{
+  width: 100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.family .family-text h2, .family .family-text i{
+  font-size: 30px;
+}
+
+.family .family-text i:not(#yt){
+  padding-right: 30px;
+}
+
 @media screen  and (max-width:992px){
 
   .prodotti img{
@@ -201,6 +234,14 @@ section.mobility{
 
   .app .row .download img{
     height: 55%;
+  }
+
+  .family .family-text h2, .family .family-text i{
+    font-size: 20px;
+  }
+
+  .family .family-text i:not(#yt){
+    padding-right: 10px;
   }
 }
 
