@@ -82,10 +82,6 @@ ul.navbar-language #es{
   background-color: #FAFAFA;
 }
 
-.prodotti .row {
-  margin-top: 30px;
-}
-
 .prodotti .row h2{
   padding-top: 50px;
 }
@@ -136,6 +132,38 @@ section.mobility{
   color: white;
   width: 100%;
   padding:0 20%;
+}
+
+.app .row .download{
+  height: 630px;
+  background: linear-gradient(#41566a,#252f38) 50%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.app .row .find{
+  height: 630px;
+  background-image: url('../img/city.7c8c928.jpg');
+  background-size: cover;
+  margin-left: 15px;
+}
+
+.app .row .download *, .app .row .find *{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.app .row .download h2{
+  font-size: 35px;
+}
+
+.app .row .download img{
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  transform: translateX(-50%);
 }
 
 @media screen  and (max-width:992px){
