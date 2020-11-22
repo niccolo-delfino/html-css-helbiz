@@ -98,6 +98,30 @@ ul.navbar-language #es{
   margin-left: 10px;
 }
 
+section.steps .row .steps-up{
+  height: 500px;
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-size: cover;
+  background-position:left;
+}
+
+section.steps .row .steps-down{
+  height: 300px;
+  background-color: pink;
+}
+
+section.steps .row .steps-down .steps-text{
+  position: relative;
+  height: 300px;
+}
+
+section.steps .row .steps-down .steps-text-testo{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
 section.mobility{
   height: 450px;
   background-image: url('../img/scooter.f0a0397.jpg');
@@ -268,6 +292,10 @@ footer .footer-middle a{
 
   .prodotti .row .monopattino, .prodotti .row .bici{
     margin: 15px 30px;
+  }
+
+  section.steps .row .steps-up{
+    background-position-x: -260px;
   }
 
   section.mobility{
