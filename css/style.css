@@ -11,6 +11,7 @@ ul {
   list-style: none;
 }
 
+/* HEADER */
 .header-top {
   height: 80px;
   line-height: 80px;
@@ -68,6 +69,7 @@ ul.navbar-language #es{
   width: 100%;
 }
 
+/* SEZIONE PRODOTTI */
 .prodotti div{
   text-align: center;
 }
@@ -98,21 +100,35 @@ ul.navbar-language #es{
   margin-left: 10px;
 }
 
+/* SEZIONE STEPS */
 section.steps .row .steps-up{
-  height: 500px;
+  height: 450px;
   background-image: url('../img/index-banner.1f6fd0a.jpg');
   background-size: cover;
   background-position:left;
 }
 
+section.steps .steps-all{
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+section.steps .steps-all .row img{
+  height: 550px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 section.steps .row .steps-down{
-  height: 300px;
-  background-color: pink;
+  height: 200px;
 }
 
 section.steps .row .steps-down .steps-text{
   position: relative;
-  height: 300px;
+  height: 200px;
 }
 
 section.steps .row .steps-down .steps-text-testo{
@@ -122,6 +138,7 @@ section.steps .row .steps-down .steps-text-testo{
   transform: translate(-50%,-50%);
 }
 
+/* SEZIONE MOBILITY */
 section.mobility{
   height: 450px;
   background-image: url('../img/scooter.f0a0397.jpg');
@@ -158,6 +175,7 @@ section.mobility{
   padding:0 20%;
 }
 
+/* SEZIONE APP */
 .app .row .download{
   height: 600px;
   background: linear-gradient(#41566a,#252f38) 50%;
@@ -191,6 +209,7 @@ section.mobility{
   transform: translateX(-50%);
 }
 
+/* SEZIONE FAMILY */
 .family{
   width: 100%;
   height: 400px;
@@ -225,6 +244,7 @@ section.mobility{
   padding-right: 30px;
 }
 
+/* FOOTER */
 footer{
   background-color: black;
 }
@@ -280,11 +300,15 @@ footer .footer-middle a{
   border-radius: 10px;
  }
 
-
+/* MEDIA RULES */
 @media screen  and (max-width:992px){
 
   .prodotti img{
     height: 310px;
+  }
+
+  section.steps .steps-all .row img{
+    display: none;
   }
 }
 
