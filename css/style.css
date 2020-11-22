@@ -116,7 +116,7 @@ section.mobility{
   padding-bottom: 25px;
 }
 
-.mobility-text-r h3, a{
+.mobility-text-r h3,.mobility-text-r a{
   font-size: 20px;
   font-weight: normal;
   color: white;
@@ -194,10 +194,42 @@ section.mobility{
 
 .family .family-text h2, .family .family-text i{
   font-size: 30px;
+  color: black;
 }
 
 .family .family-text i:not(#yt){
   padding-right: 30px;
+}
+
+footer{
+  background-color: black;
+}
+
+footer .footer-up{
+  padding-top: 80px;
+  border-bottom: 1px solid lightgrey;
+}
+
+footer .footer-up .footer-logo{
+  font-size: 20px;
+}
+
+footer .row h2{
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .footer-up ul li{
+  padding-bottom: 10px;
+}
+
+footer .footer-up ul li a{
+  color: grey;
+}
+
+footer .footer-up .row>div{
+  margin-bottom: 20px;
 }
 
 @media screen  and (max-width:992px){

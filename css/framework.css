@@ -36,6 +36,11 @@
   margin: 0 auto;
 }
 
+.container-s {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .row::after{
   content: '';
   display: table;
